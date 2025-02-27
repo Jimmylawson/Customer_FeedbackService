@@ -5,15 +5,15 @@ Customer Feedback Service
 This is a Spring Boot application that provides a REST API for managing customer feedback. It uses MongoDB as a database, which is deployed via Docker. The service supports pagination, filtering, and sorting of feedback records.
 
 Table of Contents
-	•	Getting Started
-	•	Technologies Used
-	•	Setup & Installation
-	•	Docker & MongoDB
-	•	API Endpoints
-	•	GET /feedback (Pagination & Filtering)
-	•	Query by Example (QBE)
-	•	Troubleshooting & Debugging
-	•	Future Improvements
+	#	Getting Started
+	#	Technologies Used
+	#	Setup & Installation
+	#	Docker & MongoDB
+	#	API Endpoints
+	#	GET /feedback (Pagination & Filtering)
+	#	Query by Example (QBE)
+	#	Troubleshooting & Debugging
+	#	Future Improvements
 
 
  Getting Started
