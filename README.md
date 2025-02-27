@@ -1,8 +1,38 @@
 This is the *Customer Feedback Service* project I made myself.
 
+Customer Feedback Service
 
-<p>There are many market places on the Internet and customers often rate goods they buy. This project offers you an opportunity to try yourself in building a web service for saving, storing and finding customer feedback data using Spring Boot and the popular MongoDB database.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/409?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/409</a>
+This is a Spring Boot application that provides a REST API for managing customer feedback. It uses MongoDB as a database, which is deployed via Docker. The service supports pagination, filtering, and sorting of feedback records.
 
-Here's the link to the project: https://hyperskill.org/projects/409
+Table of Contents
+	•	Getting Started
+	•	Technologies Used
+	•	Setup & Installation
+	•	Docker & MongoDB
+	•	API Endpoints
+	•	GET /feedback (Pagination & Filtering)
+	•	Query by Example (QBE)
+	•	Troubleshooting & Debugging
+	•	Future Improvements
+
+
+ Getting Started
+
+To run the Customer Feedback Service, ensure you have:
+	•	Java 17+
+	•	Spring Boot 3.2.0
+	•	MongoDB (via Docker)
+	•	Gradle
+	•	Postman (optional for testing)
+
+ Technologies Used
+	•	Spring Boot (Backend API)
+	•	MongoDB (NoSQL Database)
+	•	Docker (For containerized database)
+	•	Spring Data MongoDB (Database connectivity)
+	•	Spring Pageable (Pagination)
+	•	Query by Example (QBE) (Dynamic filtering)
+	•	TestContainers (Integration testing)
+ 
 
 Check out my profile: https://hyperskill.org/profile/617875055
